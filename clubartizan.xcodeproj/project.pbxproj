@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCBB9D571C80198100328594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBB9D561C80198100328594 /* AppDelegate.swift */; };
+		DCBB9D591C80198100328594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBB9D581C80198100328594 /* ViewController.swift */; };
+		DCBB9D5C1C80198100328594 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBB9D5A1C80198100328594 /* Main.storyboard */; };
+		DCBB9D5F1C80198200328594 /* clubartizan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCBB9D5D1C80198200328594 /* clubartizan.xcdatamodeld */; };
+		DCBB9D611C80198200328594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBB9D601C80198200328594 /* Assets.xcassets */; };
+		DCBB9D641C80198200328594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBB9D621C80198200328594 /* LaunchScreen.storyboard */; };
+		DCBB9D6F1C80198200328594 /* clubartizanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBB9D6E1C80198200328594 /* clubartizanTests.swift */; };
+		DCBB9D7A1C80198200328594 /* clubartizanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBB9D791C80198200328594 /* clubartizanUITests.swift */; };
+		DCE2B1481CA7D45900725EF7 /* webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE2B1471CA7D45900725EF7 /* webview.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCBB9D6B1C80198200328594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCBB9D4B1C80198100328594 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCBB9D521C80198100328594;
+			remoteInfo = clubartizan;
+		};
+		DCBB9D761C80198200328594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCBB9D4B1C80198100328594 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCBB9D521C80198100328594;
+			remoteInfo = clubartizan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCBB9D531C80198100328594 /* clubartizan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clubartizan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBB9D561C80198100328594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCBB9D581C80198100328594 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCBB9D5B1C80198100328594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCBB9D5E1C80198200328594 /* clubartizan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = clubartizan.xcdatamodel; sourceTree = "<group>"; };
+		DCBB9D601C80198200328594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCBB9D631C80198200328594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCBB9D651C80198200328594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCBB9D6A1C80198200328594 /* clubartizanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clubartizanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBB9D6E1C80198200328594 /* clubartizanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clubartizanTests.swift; sourceTree = "<group>"; };
+		DCBB9D701C80198200328594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCBB9D751C80198200328594 /* clubartizanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clubartizanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBB9D791C80198200328594 /* clubartizanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clubartizanUITests.swift; sourceTree = "<group>"; };
+		DCBB9D7B1C80198200328594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE2B1471CA7D45900725EF7 /* webview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = webview.swift; path = ../webview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCBB9D501C80198100328594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBB9D671C80198200328594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBB9D721C80198200328594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCBB9D4A1C80198100328594 = {
+			isa = PBXGroup;
+			children = (
+				DCBB9D551C80198100328594 /* clubartizan */,
+				DCBB9D6D1C80198200328594 /* clubartizanTests */,
+				DCBB9D781C80198200328594 /* clubartizanUITests */,
+				DCBB9D541C80198100328594 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCBB9D541C80198100328594 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCBB9D531C80198100328594 /* clubartizan.app */,
+				DCBB9D6A1C80198200328594 /* clubartizanTests.xctest */,
+				DCBB9D751C80198200328594 /* clubartizanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCBB9D551C80198100328594 /* clubartizan */ = {
+			isa = PBXGroup;
+			children = (
+				DCBB9D561C80198100328594 /* AppDelegate.swift */,
+				DCBB9D581C80198100328594 /* ViewController.swift */,
+				DCBB9D5A1C80198100328594 /* Main.storyboard */,
+				DCE2B1471CA7D45900725EF7 /* webview.swift */,
+				DCBB9D601C80198200328594 /* Assets.xcassets */,
+				DCBB9D621C80198200328594 /* LaunchScreen.storyboard */,
+				DCBB9D651C80198200328594 /* Info.plist */,
+				DCBB9D5D1C80198200328594 /* clubartizan.xcdatamodeld */,
+			);
+			path = clubartizan;
+			sourceTree = "<group>";
+		};
+		DCBB9D6D1C80198200328594 /* clubartizanTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCBB9D6E1C80198200328594 /* clubartizanTests.swift */,
+				DCBB9D701C80198200328594 /* Info.plist */,
+			);
+			path = clubartizanTests;
+			sourceTree = "<group>";
+		};
+		DCBB9D781C80198200328594 /* clubartizanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCBB9D791C80198200328594 /* clubartizanUITests.swift */,
+				DCBB9D7B1C80198200328594 /* Info.plist */,
+			);
+			path = clubartizanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCBB9D521C80198100328594 /* clubartizan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBB9D7E1C80198200328594 /* Build configuration list for PBXNativeTarget "clubartizan" */;
+			buildPhases = (
+				DCBB9D4F1C80198100328594 /* Sources */,
+				DCBB9D501C80198100328594 /* Frameworks */,
+				DCBB9D511C80198100328594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clubartizan;
+			productName = clubartizan;
+			productReference = DCBB9D531C80198100328594 /* clubartizan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCBB9D691C80198200328594 /* clubartizanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBB9D811C80198200328594 /* Build configuration list for PBXNativeTarget "clubartizanTests" */;
+			buildPhases = (
+				DCBB9D661C80198200328594 /* Sources */,
+				DCBB9D671C80198200328594 /* Frameworks */,
+				DCBB9D681C80198200328594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCBB9D6C1C80198200328594 /* PBXTargetDependency */,
+			);
+			name = clubartizanTests;
+			productName = clubartizanTests;
+			productReference = DCBB9D6A1C80198200328594 /* clubartizanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCBB9D741C80198200328594 /* clubartizanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBB9D841C80198200328594 /* Build configuration list for PBXNativeTarget "clubartizanUITests" */;
+			buildPhases = (
+				DCBB9D711C80198200328594 /* Sources */,
+				DCBB9D721C80198200328594 /* Frameworks */,
+				DCBB9D731C80198200328594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCBB9D771C80198200328594 /* PBXTargetDependency */,
+			);
+			name = clubartizanUITests;
+			productName = clubartizanUITests;
+			productReference = DCBB9D751C80198200328594 /* clubartizanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCBB9D4B1C80198100328594 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Club Artizan";
+				TargetAttributes = {
+					DCBB9D521C80198100328594 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 647JACUM4E;
+					};
+					DCBB9D691C80198200328594 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 647JACUM4E;
+						TestTargetID = DCBB9D521C80198100328594;
+					};
+					DCBB9D741C80198200328594 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 647JACUM4E;
+						TestTargetID = DCBB9D521C80198100328594;
+					};
+				};
+			};
+			buildConfigurationList = DCBB9D4E1C80198100328594 /* Build configuration list for PBXProject "clubartizan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCBB9D4A1C80198100328594;
+			productRefGroup = DCBB9D541C80198100328594 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCBB9D521C80198100328594 /* clubartizan */,
+				DCBB9D691C80198200328594 /* clubartizanTests */,
+				DCBB9D741C80198200328594 /* clubartizanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCBB9D511C80198100328594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBB9D641C80198200328594 /* LaunchScreen.storyboard in Resources */,
+				DCBB9D611C80198200328594 /* Assets.xcassets in Resources */,
+				DCBB9D5C1C80198100328594 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBB9D681C80198200328594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBB9D731C80198200328594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCBB9D4F1C80198100328594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBB9D591C80198100328594 /* ViewController.swift in Sources */,
+				DCE2B1481CA7D45900725EF7 /* webview.swift in Sources */,
+				DCBB9D5F1C80198200328594 /* clubartizan.xcdatamodeld in Sources */,
+				DCBB9D571C80198100328594 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBB9D661C80198200328594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBB9D6F1C80198200328594 /* clubartizanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBB9D711C80198200328594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBB9D7A1C80198200328594 /* clubartizanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCBB9D6C1C80198200328594 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCBB9D521C80198100328594 /* clubartizan */;
+			targetProxy = DCBB9D6B1C80198200328594 /* PBXContainerItemProxy */;
+		};
+		DCBB9D771C80198200328594 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCBB9D521C80198100328594 /* clubartizan */;
+			targetProxy = DCBB9D761C80198200328594 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCBB9D5A1C80198100328594 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCBB9D5B1C80198100328594 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCBB9D621C80198200328594 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCBB9D631C80198200328594 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCBB9D7C1C80198200328594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCBB9D7D1C80198200328594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCBB9D7F1C80198200328594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = clubartizan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.clubartizan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCBB9D801C80198200328594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = clubartizan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.clubartizan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCBB9D821C80198200328594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = clubartizanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.clubartizanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clubartizan.app/clubartizan";
+			};
+			name = Debug;
+		};
+		DCBB9D831C80198200328594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = clubartizanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.clubartizanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clubartizan.app/clubartizan";
+			};
+			name = Release;
+		};
+		DCBB9D851C80198200328594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = clubartizanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.clubartizanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = clubartizan;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DCBB9D861C80198200328594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = clubartizanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.clubartizanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = clubartizan;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCBB9D4E1C80198100328594 /* Build configuration list for PBXProject "clubartizan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBB9D7C1C80198200328594 /* Debug */,
+				DCBB9D7D1C80198200328594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCBB9D7E1C80198200328594 /* Build configuration list for PBXNativeTarget "clubartizan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBB9D7F1C80198200328594 /* Debug */,
+				DCBB9D801C80198200328594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCBB9D811C80198200328594 /* Build configuration list for PBXNativeTarget "clubartizanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBB9D821C80198200328594 /* Debug */,
+				DCBB9D831C80198200328594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCBB9D841C80198200328594 /* Build configuration list for PBXNativeTarget "clubartizanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBB9D851C80198200328594 /* Debug */,
+				DCBB9D861C80198200328594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCBB9D5D1C80198200328594 /* clubartizan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCBB9D5E1C80198200328594 /* clubartizan.xcdatamodel */,
+			);
+			currentVersion = DCBB9D5E1C80198200328594 /* clubartizan.xcdatamodel */;
+			path = clubartizan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCBB9D4B1C80198100328594 /* Project object */;
+}

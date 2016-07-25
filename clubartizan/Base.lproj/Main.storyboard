@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7dA-TU-M6x">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Club Artizan-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="clubartizan" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="342" placeholderIntrinsicHeight="600" image="clubartizan-1" translatesAutoresizingMaskIntoConstraints="NO" id="el5-WL-UBw">
+                                <rect key="frame" x="-6" y="-60" width="417" height="738"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="270" placeholderIntrinsicHeight="35" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHH-0q-HM5">
+                                <rect key="frame" x="67" y="332" width="270" height="35"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="qek-Ty-aWh"/>
+                                    <constraint firstAttribute="height" constant="35" id="zah-s2-Q15"/>
+                                </constraints>
+                                <state key="normal" title="Log In">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="17"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                        <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="0Z0-nD-iOz" kind="show" id="ZX2-WJ-i52"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="270" placeholderIntrinsicHeight="35" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QU6-Yt-8xK">
+                                <rect key="frame" x="67" y="282" width="270" height="35"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="2S6-U0-xfm"/>
+                                    <constraint firstAttribute="width" constant="270" id="emH-NT-FcJ"/>
+                                </constraints>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="17"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                        <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="nG9-Mf-dzq" kind="show" id="yUj-NX-hmf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLH-I4-YDw">
+                                <rect key="frame" x="58" y="395" width="279" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Continue as a Guest">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="GbY-JA-VKC" kind="show" id="o2b-Qh-LzI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QU6-Yt-8xK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9es-WA-TDb"/>
+                            <constraint firstItem="bHH-0q-HM5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n0S-TI-QFJ"/>
+                            <constraint firstItem="wLH-I4-YDw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wmN-Mk-JOo"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Club Artizan" id="i6w-X3-wcz"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="GQj-99-T6E"/>
+            </objects>
+            <point key="canvasLocation" x="700" y="335"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="w71-zQ-6pg">
+            <objects>
+                <viewController id="0Z0-nD-iOz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QgT-hN-Wv4"/>
+                        <viewControllerLayoutGuide type="bottom" id="c6G-w4-X1H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mP4-Oe-bYh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clubartizan-1" translatesAutoresizingMaskIntoConstraints="NO" id="WUl-IQ-DH9">
+                                <rect key="frame" x="-6" y="-60" width="417" height="738"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m35-LQ-bXY">
+                                <rect key="frame" x="67" y="334" width="270" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="16.75"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BHO-Ep-DUx">
+                                <rect key="frame" x="67" y="285" width="270" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="16.75"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5BO-9V-uFN">
+                                <rect key="frame" x="67" y="392" width="270" height="35"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Log In">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                        <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="17"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5BO-9V-uFN" firstAttribute="centerX" secondItem="mP4-Oe-bYh" secondAttribute="centerX" id="Shv-my-Udt"/>
+                            <constraint firstItem="BHO-Ep-DUx" firstAttribute="centerX" secondItem="mP4-Oe-bYh" secondAttribute="centerX" id="UWQ-jC-1xJ"/>
+                            <constraint firstItem="m35-LQ-bXY" firstAttribute="centerX" secondItem="mP4-Oe-bYh" secondAttribute="centerX" id="aUd-Z3-cfx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="qW0-eS-zUh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BWg-5I-mwu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1447" y="315"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pWl-9O-aDI">
+            <objects>
+                <viewController id="GbY-JA-VKC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="X4N-Uh-k8l"/>
+                        <viewControllerLayoutGuide type="bottom" id="dfr-wk-AYb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fhy-sb-Ft1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jty-Pl-38W">
+                                <rect key="frame" x="-38" y="7" width="600" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="GbY-JA-VKC" id="KjG-ST-w4v"/>
+                                </connections>
+                            </searchBar>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VNm-0V-JTE">
+                                <rect key="frame" x="13" y="7" width="600" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="61a-wJ-jJU">
+                                <rect key="frame" x="13" y="64" width="527" height="492"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="Wt6-nf-z9W" id="7mC-JZ-Ng0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PSu-k1-WRi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="Wt6-nf-z9W">
+                    <connections>
+                        <outlet property="delegate" destination="GbY-JA-VKC" id="Eyg-4f-DaM"/>
+                        <outlet property="searchBar" destination="Jty-Pl-38W" id="UQc-qz-JlY"/>
+                        <outlet property="searchContentsController" destination="GbY-JA-VKC" id="SaY-9d-1tF"/>
+                        <outlet property="searchResultsDataSource" destination="GbY-JA-VKC" id="Tt1-bI-AGh"/>
+                        <outlet property="searchResultsDelegate" destination="GbY-JA-VKC" id="HH0-d1-Agh"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="1039" y="1724"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Bjq-tX-NWH">
+            <objects>
+                <viewController id="nG9-Mf-dzq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YId-tY-jtq"/>
+                        <viewControllerLayoutGuide type="bottom" id="6B9-wI-1JZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BlS-iJ-WQ6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="417" placeholderIntrinsicHeight="738" image="clubartizan-1" translatesAutoresizingMaskIntoConstraints="NO" id="DoO-yk-W9U">
+                                <rect key="frame" x="-6" y="-60" width="417" height="738"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UuX-HX-Sa2">
+                                <rect key="frame" x="67" y="458" width="270" height="35"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="17"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                        <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x7B-M7-TlX">
+                                <rect key="frame" x="67" y="270" width="270" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="16.75"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="njQ-E3-vbJ">
+                                <rect key="frame" x="67" y="391" width="270" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="16.75"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pgd-tR-52a">
+                                <rect key="frame" x="67" y="208" width="270" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="16.75"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XAp-Gd-A2u">
+                                <rect key="frame" x="67" y="333" width="270" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="16.75"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="x7B-M7-TlX" firstAttribute="centerX" secondItem="BlS-iJ-WQ6" secondAttribute="centerX" id="APJ-N5-mqd"/>
+                            <constraint firstItem="njQ-E3-vbJ" firstAttribute="centerX" secondItem="BlS-iJ-WQ6" secondAttribute="centerX" id="Jxg-Hm-FUl"/>
+                            <constraint firstItem="Pgd-tR-52a" firstAttribute="centerX" secondItem="BlS-iJ-WQ6" secondAttribute="centerX" id="eJ0-H3-gfb"/>
+                            <constraint firstItem="XAp-Gd-A2u" firstAttribute="centerX" secondItem="BlS-iJ-WQ6" secondAttribute="centerX" id="kYb-ww-3ZB"/>
+                            <constraint firstItem="UuX-HX-Sa2" firstAttribute="centerX" secondItem="BlS-iJ-WQ6" secondAttribute="centerX" id="wGU-W1-ZsO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="luZ-8m-mKp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1376" y="987"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="PD8-Iv-LWB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7dA-TU-M6x" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="H0G-h4-8gq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="cKg-0P-itA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k9E-jX-3dU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-44" y="315"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="clubartizan-1" width="207" height="368"/>
+    </resources>
+</document>
